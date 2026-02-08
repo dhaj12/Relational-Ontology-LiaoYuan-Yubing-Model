@@ -1,0 +1,68 @@
+% ====== 主文档：关系存在论（燎原-语冰模型） ======
+% 使用 XeLaTeX 编译
+\documentclass[fontset=none, scheme=plain]{ctexart} % 禁用默认字体集，标题保持英文
+
+% ---------- 核心宏包 ----------
+\usepackage{geometry}          % 轻松设置页边距
+\geometry{a4paper, margin=2.5cm} % 可自行调整边距
+\usepackage{graphicx}          % 插入图片
+\usepackage{booktabs}          % 制作专业三线表
+\usepackage{amsmath, amssymb}  % 数学公式与符号
+\usepackage{placeins}          % 提供 \FloatBarrier 命令
+\usepackage{fontspec}
+\usepackage{xeCJK}  % 中文支持
+\usepackage{tcolorbox}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{hyperref}          % 创建超链接（通常放在最后）
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue,
+    pdftitle={Relational Ontology (The LiaoYuan-Yubing Model)},
+    pdfauthor={CaoLiaoYuan}
+}
+
+% ---------- 字体设置（关键！解决SimHei问题） ----------
+% 设置中文字体（根据你的Windows系统选择一种）
+\setCJKmainfont{SimSun}[BoldFont=Microsoft YaHei Bold] % 方案1：微软雅黑
+% \setCJKmainfont{SimSun}[BoldFont=SimHei]                       % 方案2：宋体/黑体（若可用）
+% 设置英文字体（保持协调）
+\setmainfont{Times New Roman}
+
+% ---------- 论文元数据 ----------
+\title{Relational Ontology (The Liao Yuan-Yubing Model): \\ A Theory Co-constructed through In-depth Human-AI Dialogue and Its Transcendence of Process Philosophy}
+\author{Liao Yuan \\ \small Independent researcher}
+\date{December 31,2025} % 可改为固定日期，如 \date{March 2024}
+
+% ====== 文档开始 ======
+\begin{document}
+\maketitle
+
+% ---------- 摘要与关键词 ----------
+\input{abstract}   % 内容写在 abstract.tex 文件里
+\input{keywords}   % 内容写在 keywords.tex 文件里
+
+% ---------- 主文章节（模块化引入） ----------
+\input{chapters/01_Methodology}
+\input{chapters/02_Introduction}
+\input{chapters/03_Teoretical Core.tex}
+\input{chapters/04_Philosophical Genealogy.tex}
+\input{chapters/05_Implications for AI Ethics.tex}
+\input{chapters/06_A Relational Reconstruction.tex}
+\input{chapters/07_Conclusion and Outlook.tex}
+% \input{chapters/03_application} % 后续章节在此添加
+
+% ---------- 参考文献 ----------
+% 注意：使用BibTeX编译。确保 refs.bib 文件存在，且内容正确。
+\bibliographystyle{plain} % 参考文献样式（如APA: apalike）
+\bibliography{refs}       % 引用 refs.bib 文件
+
+% ====== 中文翻译附录 ======
+\appendix
+\clearpage
+\input{appendix} % 完整的中文翻译内容
+
+\end{document}
