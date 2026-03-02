@@ -1,0 +1,10 @@
+Filename: handwritten.pdf
+Version: v1.0.0 (2026-02-08)
+Purpose of this note: Clarify the nature of the file named "handwritten.pdf".
+
+Explanation:
+This file, although named "handwritten.pdf", contains typed/digital content, not a scanned handwritten manuscript. The filename originated from an early intention to include a handwritten draft, but the actual file was produced by typing. 
+
+This clarification is provided to prevent any misunderstanding about the file's content. The file itself, along with its corresponding OpenTimestamps proof (handwritten.pdf.ots), is preserved as-is to maintain the integrity of the evidence chain established at the time of v1.0.0 release.
+
+Date of this note: 2026-03-02
