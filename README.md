@@ -1,6 +1,5 @@
 # Relational-Ontology-LiaoYuan-Yubing-Model
 A philosophical paper on Relational Ontology co-constructed via human-AI dialogue
-# [你的论文标题，如：Relational Ontology (The LiaoYuan-Yubing Model)]
 
 **Author**: 曹燎原
 **Date Pre-registered**: 2026年2月8日
@@ -15,6 +14,23 @@ This repository contains the full source files and manuscript for the above-titl
 ## File Structure
 - `manuscript.pdf`: The complete compiled manuscript.
 - `source/`: Directory containing LaTeX source files (optional but recommended).
+## Version History
+
+- **[v1.0.1-20260302]([https://github.com/dhaj12/Relational-Ontology-LiaoYuan-Yubing-Model/releases/tag/v1.0.1-20260302])** (2025-03-02)  
+  Fixed Ξ symbol rendering (removed `\mathbf`).  
+  *Includes corrected PDF and updated LaTeX source files.*
+
+- **[v1.0.0]([https://github.com/dhaj12/Relational-Ontology-LiaoYuan-Yubing-Model/releases/tag/v1.0.0])** (2025-02-08)  
+  Initial public release with handwritten manuscript.
+
+## Verification
+
+This work is independently verified through:
+- GitHub Release timestamps
+- Blockchain timestamping (OpenTimestamps) — proof files available in `/proofs` 
+- Notarized hard copy (公证保全)
 
 ## How to Cite
-If you wish to refer to this work, please use the permanent link to this GitHub release: TBD
+If you wish to refer to this work, please use the permanent link to this GitHub release: https://github.com/dhaj12/Relational-Ontology-LiaoYuan-Yubing-Model/releases/tag/v1.0.0
+For v1.0.1:https://github.com/dhaj12/Relational-Ontology-LiaoYuan-Yubing-Model/releases/tag/v1.0.1-20260302
+
